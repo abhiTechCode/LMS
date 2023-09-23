@@ -220,7 +220,7 @@ public class ViewAllRecord extends javax.swing.JFrame {
 
         jPanel4.setBackground(new java.awt.Color(255, 51, 51));
 
-        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 17)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 15)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/AddNewBookIcons/icons8_Rewind_48px.png"))); // NOI18N
         jLabel1.setText("BACK");
@@ -292,7 +292,7 @@ public class ViewAllRecord extends javax.swing.JFrame {
         });
         jPanel1.add(allrecords_button, new org.netbeans.lib.awtextra.AbsoluteConstraints(1040, 90, 120, 60));
 
-        jLabel27.setFont(new java.awt.Font("Tahoma", 1, 17)); // NOI18N
+        jLabel27.setFont(new java.awt.Font("Tahoma", 1, 15)); // NOI18N
         jLabel27.setForeground(new java.awt.Color(51, 51, 51));
         jLabel27.setIcon(new javax.swing.ImageIcon(getClass().getResource("/adminIcons/icons8_Read_Online_26px.png"))); // NOI18N
         jLabel27.setText("Welcome,");
@@ -361,7 +361,7 @@ public class ViewAllRecord extends javax.swing.JFrame {
         jPanel2.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 20, 1100, 440));
 
         jLabel5.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel5.setText("Naveenkumar J");
+        jLabel5.setText("Rohan Singh");
         jLabel5.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jLabel5.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -371,7 +371,7 @@ public class ViewAllRecord extends javax.swing.JFrame {
         jPanel2.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(1120, 480, -1, 10));
 
         jLabel6.setText("Develped by:");
-        jPanel2.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(1050, 470, -1, 30));
+        jPanel2.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(1030, 470, -1, 30));
 
         getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 210, 1210, 500));
 
@@ -428,7 +428,7 @@ public class ViewAllRecord extends javax.swing.JFrame {
         // TODO add your handling code here:
         try {
             // TODO add your handling code here:
-            Desktop.getDesktop().browse(new URI("https://github.com/naveenkumar-j"));
+            Desktop.getDesktop().browse(new URI(""));
         } catch (IOException ex) {
             Logger.getLogger(LoginPage.class.getName()).log(Level.SEVERE, null, ex);
         } catch (URISyntaxException ex) {

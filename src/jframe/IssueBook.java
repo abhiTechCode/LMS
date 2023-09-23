@@ -290,7 +290,7 @@ public class IssueBook extends javax.swing.JFrame {
 
         jPanel4.setBackground(new java.awt.Color(51, 153, 255));
 
-        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 17)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 15)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/AddNewBookIcons/icons8_Rewind_48px.png"))); // NOI18N
         jLabel1.setText("BACK");
@@ -580,7 +580,7 @@ public class IssueBook extends javax.swing.JFrame {
         jPanel1.add(date_duedate, new org.netbeans.lib.awtextra.AbsoluteConstraints(1040, 520, 290, 40));
 
         jLabel3.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel3.setText("Naveenkumar J");
+        jLabel3.setText("Rohan Singh");
         jLabel3.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jLabel3.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -590,9 +590,9 @@ public class IssueBook extends javax.swing.JFrame {
         jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(1280, 770, -1, -1));
 
         jLabel8.setText("Developed by:");
-        jPanel1.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(1200, 770, -1, -1));
+        jPanel1.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(1180, 770, -1, -1));
 
-        jLabel27.setFont(new java.awt.Font("Tahoma", 1, 17)); // NOI18N
+        jLabel27.setFont(new java.awt.Font("Tahoma", 1, 15)); // NOI18N
         jLabel27.setForeground(new java.awt.Color(51, 51, 51));
         jLabel27.setIcon(new javax.swing.ImageIcon(getClass().getResource("/adminIcons/icons8_Read_Online_26px.png"))); // NOI18N
         jLabel27.setText("Welcome,");
@@ -724,7 +724,7 @@ public class IssueBook extends javax.swing.JFrame {
         // TODO add your handling code here:
         try {
             // TODO add your handling code here:
-            Desktop.getDesktop().browse(new URI("https://github.com/naveenkumar-j"));
+            Desktop.getDesktop().browse(new URI(""));
         } catch (IOException ex) {
             Logger.getLogger(LoginPage.class.getName()).log(Level.SEVERE, null, ex);
         } catch (URISyntaxException ex) {

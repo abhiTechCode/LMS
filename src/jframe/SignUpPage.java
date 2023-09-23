@@ -283,7 +283,7 @@ public class SignUpPage extends javax.swing.JFrame {
         jPanel4.add(jLabel27, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 790, -1, -1));
 
         jLabel9.setFont(new java.awt.Font("Calibri", 1, 30)); // NOI18N
-        jLabel9.setForeground(new java.awt.Color(0, 0, 255));
+        jLabel9.setForeground(new java.awt.Color(0, 255, 0));
         jLabel9.setText("Library Management System");
         jPanel4.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 120, 590, 50));
 
@@ -326,7 +326,7 @@ public class SignUpPage extends javax.swing.JFrame {
 
         jLabel4.setFont(new java.awt.Font("Tahoma", 1, 30)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(255, 51, 51));
-        jLabel4.setText("WELCOME TO");
+        jLabel4.setText("Sign Up ");
         jPanel3.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 60, -1, -1));
 
         jPanel1.add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 990, 830));
@@ -370,7 +370,7 @@ public class SignUpPage extends javax.swing.JFrame {
         jLabel8.setForeground(new java.awt.Color(51, 51, 51));
         jLabel8.setText("create new account here");
         jLabel8.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        jPanel2.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 90, -1, -1));
+        jPanel2.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 90, -1, -1));
 
         txt_username.setBackground(new java.awt.Color(51, 153, 255));
         txt_username.setBorder(javax.swing.BorderFactory.createMatteBorder(0, 0, 2, 0, new java.awt.Color(255, 255, 255)));
@@ -446,7 +446,7 @@ public class SignUpPage extends javax.swing.JFrame {
         jPanel2.add(jLabel26, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 460, 43, -1));
 
         loginbutton.setBackground(new java.awt.Color(0, 0, 255));
-        loginbutton.setText("Back to Home");
+        loginbutton.setText("Switch to Login");
         loginbutton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 loginbuttonActionPerformed(evt);
@@ -455,7 +455,7 @@ public class SignUpPage extends javax.swing.JFrame {
         jPanel2.add(loginbutton, new org.netbeans.lib.awtextra.AbsoluteConstraints(178, 749, 156, 58));
 
         signupbutton.setBackground(new java.awt.Color(255, 51, 51));
-        signupbutton.setText("Add User");
+        signupbutton.setText("Sign Up");
         signupbutton.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 signupbuttonMouseClicked(evt);
@@ -470,7 +470,7 @@ public class SignUpPage extends javax.swing.JFrame {
 
         jLabel12.setFont(new java.awt.Font("Tahoma", 1, 30)); // NOI18N
         jLabel12.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel12.setText("User Type");
+        jLabel12.setText("");
         jPanel2.add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 50, -1, -1));
 
         txtutype.setBackground(new java.awt.Color(51, 153, 255));
@@ -490,7 +490,7 @@ public class SignUpPage extends javax.swing.JFrame {
 
         jLabel15.setFont(new java.awt.Font("Tahoma", 1, 30)); // NOI18N
         jLabel15.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel15.setText("WELCOME , ");
+        jLabel15.setText("Sign Up Page ");
         jPanel2.add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 50, -1, -1));
 
         getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(990, 0, 540, 830));
@@ -505,9 +505,9 @@ public class SignUpPage extends javax.swing.JFrame {
 
     private void loginbuttonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_loginbuttonActionPerformed
         // TODO add your handling code here:
-        LoginPage hp = new LoginPage(id, uname, usertype);
+        LoginPage hp = new LoginPage();
         hp.setVisible(true);
-        this.dispose();
+        //this.dispose();
     }//GEN-LAST:event_loginbuttonActionPerformed
 
     private void signupbuttonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_signupbuttonActionPerformed

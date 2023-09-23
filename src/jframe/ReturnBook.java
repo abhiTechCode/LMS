@@ -464,7 +464,7 @@ public class ReturnBook extends javax.swing.JFrame {
         jPanel1.add(findbutton, new org.netbeans.lib.awtextra.AbsoluteConstraints(1060, 470, 190, 50));
 
         jLabel3.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel3.setText("Naveenkumar J");
+        jLabel3.setText("Rohan Singh");
         jLabel3.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jLabel3.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -474,7 +474,7 @@ public class ReturnBook extends javax.swing.JFrame {
         jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(1280, 770, -1, -1));
 
         jLabel8.setText("Developed by:");
-        jPanel1.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(1200, 770, -1, -1));
+        jPanel1.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(1180, 770, -1, -1));
 
         jLabel27.setFont(new java.awt.Font("Tahoma", 1, 17)); // NOI18N
         jLabel27.setForeground(new java.awt.Color(51, 51, 51));
@@ -486,7 +486,7 @@ public class ReturnBook extends javax.swing.JFrame {
                 jLabel27MouseClicked(evt);
             }
         });
-        jPanel1.add(jLabel27, new org.netbeans.lib.awtextra.AbsoluteConstraints(1150, 0, 120, 40));
+        jPanel1.add(jLabel27, new org.netbeans.lib.awtextra.AbsoluteConstraints(1130, 0, 140, 40));
 
         jLabel19.setFont(new java.awt.Font("Tahoma", 1, 17)); // NOI18N
         jLabel19.setForeground(new java.awt.Color(51, 51, 51));
@@ -518,8 +518,7 @@ public class ReturnBook extends javax.swing.JFrame {
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel4Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 98, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(16, Short.MAX_VALUE))
+                .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, 114, Short.MAX_VALUE))
         );
         jPanel4Layout.setVerticalGroup(
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)

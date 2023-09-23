@@ -930,7 +930,7 @@ public class HomePage extends javax.swing.JFrame {
         jPanel30.add(panelPieChart, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 220, 540, 450));
 
         jLabel5.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel5.setText("Naveenkumar J");
+        jLabel5.setText("Rohan Singh");
         jLabel5.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jLabel5.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -940,7 +940,7 @@ public class HomePage extends javax.swing.JFrame {
         jPanel30.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(1120, 680, -1, -1));
 
         jLabel8.setText("Developed by:");
-        jPanel30.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(1040, 680, -1, -1));
+        jPanel30.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(1030, 680, -1, -1));
 
         getContentPane().add(jPanel30, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 70, 1230, 700));
 

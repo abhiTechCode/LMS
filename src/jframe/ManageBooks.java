@@ -273,7 +273,7 @@ public class ManageBooks extends javax.swing.JFrame {
 
         jPanel3.setBackground(new java.awt.Color(255, 51, 51));
 
-        jLabel10.setFont(new java.awt.Font("Tahoma", 1, 17)); // NOI18N
+        jLabel10.setFont(new java.awt.Font("Tahoma", 1, 15)); // NOI18N
         jLabel10.setForeground(new java.awt.Color(204, 204, 204));
         jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/AddNewBookIcons/icons8_Rewind_48px.png"))); // NOI18N
         jLabel10.setText("BACK");
@@ -332,7 +332,7 @@ public class ManageBooks extends javax.swing.JFrame {
 
         jPanel2.setBackground(new java.awt.Color(255, 51, 51));
 
-        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 17)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 15)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/AddNewBookIcons/icons8_Rewind_48px.png"))); // NOI18N
         jLabel1.setText("BACK");
@@ -488,7 +488,7 @@ public class ManageBooks extends javax.swing.JFrame {
 
         jPanel4.setBackground(new java.awt.Color(255, 51, 51));
 
-        jLabel11.setFont(new java.awt.Font("Tahoma", 1, 17)); // NOI18N
+        jLabel11.setFont(new java.awt.Font("Tahoma", 1, 15)); // NOI18N
         jLabel11.setForeground(new java.awt.Color(204, 204, 204));
         jLabel11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/AddNewBookIcons/icons8_Rewind_48px.png"))); // NOI18N
         jLabel11.setText("BACK");
@@ -625,10 +625,10 @@ public class ManageBooks extends javax.swing.JFrame {
         jPanel7.add(jPanel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 110, 240, 3));
 
         jLabel14.setText("Developed by:");
-        jPanel7.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(1050, 640, -1, -1));
+        jPanel7.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(1000, 640, -1, -1));
 
         jLabel15.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel15.setText("Naveenkumar J");
+        jLabel15.setText("Rohan Singh");
         jLabel15.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jLabel15.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -638,10 +638,10 @@ public class ManageBooks extends javax.swing.JFrame {
         jPanel7.add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(1130, 640, -1, -1));
 
         jLabel16.setText("Developed by:");
-        jPanel7.add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(1050, 640, -1, -1));
+        jPanel7.add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(1000, 640, -1, -1));
 
         jLabel17.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel17.setText("Naveenkumar J");
+        jLabel17.setText("Rohan Singh");
         jLabel17.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jLabel17.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -661,7 +661,7 @@ public class ManageBooks extends javax.swing.JFrame {
         });
         jPanel7.add(jLabel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 10, -1, -1));
 
-        jLabel20.setFont(new java.awt.Font("Tahoma", 1, 17)); // NOI18N
+        jLabel20.setFont(new java.awt.Font("Tahoma", 1, 15)); // NOI18N
         jLabel20.setForeground(new java.awt.Color(51, 51, 51));
         jLabel20.setIcon(new javax.swing.ImageIcon(getClass().getResource("/adminIcons/icons8_Read_Online_26px.png"))); // NOI18N
         jLabel20.setText("Welcome,");
@@ -674,7 +674,7 @@ public class ManageBooks extends javax.swing.JFrame {
         jPanel7.add(jLabel20, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 0, 120, 40));
 
         jLabel21.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel21.setText("Naveenkumar J");
+        jLabel21.setText("Rohan Singh");
         jLabel21.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jLabel21MouseClicked(evt);
@@ -683,7 +683,7 @@ public class ManageBooks extends javax.swing.JFrame {
         jPanel7.add(jLabel21, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 760, -1, -1));
 
         jLabel22.setText("Developed by:");
-        jPanel7.add(jLabel22, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 760, -1, -1));
+        jPanel7.add(jLabel22, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 760, -1, -1));
 
         panelPieChart.setLayout(new java.awt.BorderLayout());
         jPanel7.add(panelPieChart, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 410, 430, 310));

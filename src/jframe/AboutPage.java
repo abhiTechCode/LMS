@@ -129,7 +129,7 @@ public class AboutPage extends javax.swing.JFrame {
 
         jLabel2.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(51, 51, 51));
-        jLabel2.setText("4) Wamp server");
+        jLabel2.setText("4) xamp server");
         jPanel8.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 210, 180, -1));
 
         jLabel3.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
@@ -169,7 +169,7 @@ public class AboutPage extends javax.swing.JFrame {
 
         jLabel8.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel8.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel8.setText("© copyright | eagle_programming ");
+        jLabel8.setText("© NIELIT Gorakhpur");
         jLabel8.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jLabel8MouseClicked(evt);
@@ -201,7 +201,7 @@ public class AboutPage extends javax.swing.JFrame {
         jPanel1.add(jPanel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(1170, 0, 60, 30));
 
         jLabel7.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel7.setText("Naveenkumar J");
+        jLabel7.setText("Rohan Singh");
         jLabel7.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jLabel7.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -211,11 +211,11 @@ public class AboutPage extends javax.swing.JFrame {
         jPanel1.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(1130, 640, -1, -1));
 
         jLabel9.setText("Developed by:");
-        jPanel1.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(1050, 640, -1, -1));
+        jPanel1.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(1030, 640, -1, -1));
 
         jTextPane1.setEditable(false);
         jTextPane1.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jTextPane1.setText("About Project: \n\nLibrary Management Systems are a great way to monitor books, add them, update information in it, search for the suitable one, issue it, and return it when needed. This Library Management System Project is developed in Java, to provide all the features that a Library Management System should usually have and overcome the drawbacks of the present system such as:\n- Paper-based record keeping.\n- Mis-management of data due to manual and paper-based handling.\n- A vast amount of time consumption in searching for books and library management.\n- Book-thefts from the library.\n\n \n   Available Modules:\n      *  Login Module\n      *  Account Management\n      *  Student management Module\n      *  Book management Module\n      *  Issue Book\n      *  Return Book\n      *  View Records\n\n\n    Advantages of this System:\n      *  Easy to use\n      *  User friendly Interface\n      *  Easy to manage library books and students\n");
+        jTextPane1.setText("About Project: \n\nA Library Management System (LMS) is a crucial tool for educational institutions, including colleges, to efficiently manage and organize their library resources. This project aims to develop a robust and user-friendly LMS tailored to the specific needs of our college library. The system will streamline various library operations, enhance accessibility, and improve the overall library experience for students, faculty, and staff.Key Objectives::\n- Paper-based record keeping.\n- Mis-management of data due to manual and paper-based handling.\n- A vast amount of time consumption in searching for books and library management.\n- Book-thefts from the library.\n\n \n   Available Modules:\n      *  Login Module\n      *  Account Management\n      *  Student management Module\n      *  Book management Module\n      *  Issue Book\n      *  Return Book\n      *  View Records\n\n\n    Advantages of this System:\n      *  Easy to use\n      *  User friendly Interface\n      *  Easy to manage library books and students\n");
         jScrollPane1.setViewportView(jTextPane1);
 
         jPanel1.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 50, 860, 540));
