@@ -470,7 +470,7 @@ public class SignUpPage extends javax.swing.JFrame {
 
         jLabel12.setFont(new java.awt.Font("Tahoma", 1, 30)); // NOI18N
         jLabel12.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel12.setText("usertype");
+        jLabel12.setText("User Type");
         jPanel2.add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 50, -1, -1));
 
         txtutype.setBackground(new java.awt.Color(51, 153, 255));
@@ -505,7 +505,7 @@ public class SignUpPage extends javax.swing.JFrame {
 
     private void loginbuttonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_loginbuttonActionPerformed
         // TODO add your handling code here:
-        HomePage hp = new HomePage(id, uname, usertype);
+        LoginPage hp = new LoginPage(id, uname, usertype);
         hp.setVisible(true);
         this.dispose();
     }//GEN-LAST:event_loginbuttonActionPerformed

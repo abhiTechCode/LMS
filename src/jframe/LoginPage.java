@@ -4,8 +4,11 @@
  */
 package jframe;
 
+import java.awt.Color;
 import java.awt.Desktop;
 import java.awt.Toolkit;
+import java.awt.event.ActionEvent;
+import java.awt.event.MouseEvent;
 import java.io.IOException;
 import java.net.URI;
 import java.net.URISyntaxException;
@@ -16,6 +19,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import javax.swing.JButton;
 import javax.swing.JOptionPane;
 import javax.swing.JPasswordField;
 
@@ -154,18 +158,39 @@ public class LoginPage extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setUndecorated(true);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+         JButton b=new JButton("SIGN UP"); 
+         b.setBounds(175, 720, 150, 50);
+         b.setBackground(Color.blue);
+         b.setForeground(Color.white);
+         b.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                bActionPerformed(evt);
+            }
+
+            private void bActionPerformed(java.awt.event.ActionEvent evt) {
+                //throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+                SignUpPage p = new SignUpPage();
+        p.setVisible(true);
+        
+        //this.dispose();
+            }
+        });
+                  
+
+         jPanel2.add(b);
+         
 
         jPanel1.setBackground(new java.awt.Color(255, 255, 255));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/library-3.png.png"))); // NOI18N
-        jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 190, 750, 570));
+        jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 200, 750, 570));
 
         jPanel3.setBackground(new java.awt.Color(255, 255, 255));
         jPanel3.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/signup-library-icon.jpg"))); // NOI18N
-        jPanel3.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 190, 750, 570));
+        jPanel3.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 200, 750, 570));
 
         jPanel4.setBackground(new java.awt.Color(255, 255, 255));
         jPanel4.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -186,6 +211,10 @@ public class LoginPage extends javax.swing.JFrame {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jLabel18MouseClicked(evt);
             }
+
+            private void jLabel18MouseClicked(MouseEvent evt) {
+                throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+            }
         });
         jPanel4.add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, -1, -1));
 
@@ -195,6 +224,10 @@ public class LoginPage extends javax.swing.JFrame {
         jLabel27.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jLabel27MouseClicked(evt);
+            }
+
+            private void jLabel27MouseClicked(MouseEvent evt) {
+                throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
             }
         });
         jPanel4.add(jLabel27, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 790, -1, -1));
@@ -211,6 +244,10 @@ public class LoginPage extends javax.swing.JFrame {
         jLabel28.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jLabel28MouseClicked(evt);
+            }
+
+            private void jLabel28MouseClicked(MouseEvent evt) {
+                throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
             }
         });
         jPanel4.add(jLabel28, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 10, -1, -1));
@@ -287,6 +324,10 @@ public class LoginPage extends javax.swing.JFrame {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jLabel8MouseClicked(evt);
             }
+
+            private void jLabel8MouseClicked(MouseEvent evt) {
+                throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+            }
         });
         jPanel2.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 140, -1, -1));
 
@@ -308,7 +349,7 @@ public class LoginPage extends javax.swing.JFrame {
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/icons8_Account_50px.png"))); // NOI18N
         jPanel2.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(55, 280, 43, -1));
-        
+
         txt_password.setBackground(new java.awt.Color(51, 153, 255));
         txt_password.setBorder(javax.swing.BorderFactory.createMatteBorder(0, 0, 2, 0, new java.awt.Color(255, 255, 255)));
         txt_password.setForeground(new java.awt.Color(51, 51, 51));
@@ -316,7 +357,7 @@ public class LoginPage extends javax.swing.JFrame {
         txt_password.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         txt_password.setPhColor(new java.awt.Color(51, 51, 51));
         txt_password.setPlaceholder("Enter password");
-        
+
         txt_password.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txt_passwordActionPerformed(evt);
@@ -338,6 +379,7 @@ public class LoginPage extends javax.swing.JFrame {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 loginbuttonActionPerformed(evt);
             }
+            
         });
         jPanel2.add(loginbutton, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 630, 200, 58));
 
@@ -349,14 +391,14 @@ public class LoginPage extends javax.swing.JFrame {
         txt_usertype.setBackground(new java.awt.Color(51, 153, 255));
         txt_usertype.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         txt_usertype.setForeground(new java.awt.Color(51, 51, 51));
-        txt_usertype.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Select", "Admin", "Librarian", "Student", "Guest" }));
+        txt_usertype.setModel(new javax.swing.DefaultComboBoxModel<>(new String[]{"Select", "Admin", "Librarian", "Student", "Guest"}));
         txt_usertype.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jPanel2.add(txt_usertype, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 540, 300, 40));
 
         jLabel23.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
         jLabel23.setForeground(new java.awt.Color(255, 255, 255));
         JPasswordField txt_password = new JPasswordField();
-  
+
         jLabel23.setText("PASSWORD");
         jPanel2.add(jLabel23, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 400, -1, -1));
 
@@ -390,10 +432,8 @@ public class LoginPage extends javax.swing.JFrame {
 
     }//GEN-LAST:event_txt_usernameFocusLost
 
-    
-
-    
     public static void main(String args[]) {
+        
         /* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
         /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
@@ -422,7 +462,9 @@ public class LoginPage extends javax.swing.JFrame {
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 new LoginPage().setVisible(true);
+               // new SignUpPage().setVisible(true);
             }
+           
         });
     }
 
